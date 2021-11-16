@@ -1,15 +1,24 @@
 <template>
 	<div class="container">
-		<CBox
-			d="flex"
-			w="100vw"
-			h="100vh"
-			flex-dir="column"
-			justify-content="center"
-		>
+		<CBox w="100vw" h="100vh" justify-content="center">
+			<navbar>
+				<NuxtLink to="/">Home page</NuxtLink>
+				<NuxtLink to="/product">Product</NuxtLink>
+				<NuxtLink to="/users">Users</NuxtLink>
+				<NuxtLink to="/about">About</NuxtLink>
+			</navbar>
 			<CHeading text-align="center" mb="4">
-				⚡️ Hello chakra-ui/vue
+				⚡️ Fast Reload
 			</CHeading>
+			<CText
+				variant-color="red"
+				bgClip="text"
+				fontSize="6xl"
+				fontWeight="extrabold"
+				text-align="center"
+			>
+			Company Name
+			</CText>
 		</CBox>
 	</div>
 </template>
@@ -18,7 +27,8 @@
 import {
 	CBox,
 	CFlex,
-	CHeading
+	CHeading,
+	CText
 } from '@chakra-ui/vue'
 
 export default {
@@ -26,7 +36,8 @@ export default {
 	components: {
 		CBox,
 		CFlex,
-		CHeading
+		CHeading,
+		CText
 	},
 	data () {
 		return {}
