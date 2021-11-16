@@ -24,6 +24,8 @@ import {
 	CBox
 } from '@chakra-ui/vue'
 
+import custom-theme from "../"
+
 export default {
 	head: {
 		title: 'HJ Corporate - Make a new World',
