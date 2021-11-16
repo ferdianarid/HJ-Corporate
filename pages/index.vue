@@ -1,14 +1,24 @@
 <template>
 	<div class="container">
-		<CBox w="auto" maxW="1440px" h="100vh" justify-content="center" mx="100px">
+		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="100px">
 			<CBox max-w="32rem">
-			<c-heading mb="4">Membantu mengubah produk anda menjadi luar biasa.</c-heading>
-			<CText font-size="xl">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laboriosam aliquid temporibus! Eos, ex vitae nihil provident ducimus.
-			</CText>
-			<CButton size="lg" variant-color="green" mt="24px">
-			Create a free account
-			</CButton>
+				<CText font-size="md" font-bo>
+					HJ Corporate
+				</CText>
+				<CHeading mb="4">
+					Membantu mengubah produk anda menjadi luar biasa.
+				</CHeading>
+				<CText font-size="xl">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laboriosam aliquid temporibus! Eos, ex vitae nihil provident ducimus.
+				</CText>
+				<CFlex>
+					<CButton size="lg" variant-color="green" mt="24px">
+						Hubungi Kami
+					</CButton>
+					<CButton size="lg" variant="outline" variant-color="green" mt="24px" ml="12px">
+						Pelajari Dulu
+					</CButton>
+				</CFlex>
 			</CBox>
 		</CBox>
 	</div>

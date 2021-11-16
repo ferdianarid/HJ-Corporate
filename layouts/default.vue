@@ -2,7 +2,7 @@
 	<div class="container">
 		<CThemeProvider>
 			<CColorModeProvider>
-				<CBox font-family="body" as="main">
+				<CBox maxW="1440px" font-family="body" as="main">
 					<CReset />
 					<div class="navbar">
 						<NuxtLink to="/">Home page</NuxtLink>
@@ -51,8 +51,5 @@ export default {
 <style>
 * {
 	font-family: "SF Pro Display", sans-serif;
-}
-.nav-link {
-	margin: 100px;
 }
 </style>
