@@ -1,11 +1,11 @@
 <template>
 	<div class="container">
-		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="100px">
-			<CBox max-w="32rem">
-				<CText font-size="md" font-bo>
-					HJ Corporate
+		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="80px">
+			<CBox max-w="36rem">
+				<CText mb="4">
+					<b>HJ Corporate</b>
 				</CText>
-				<CHeading mb="4">
+				<CHeading mb="4" font-size="5xl">
 					Membantu mengubah produk anda menjadi luar biasa.
 				</CHeading>
 				<CText font-size="xl">

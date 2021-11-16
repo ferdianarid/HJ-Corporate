@@ -2,10 +2,10 @@
 	<div class="container">
 		<CThemeProvider>
 			<CColorModeProvider>
-				<CBox maxW="1440px" font-family="body" as="main">
+				<CBox maxW="1440px" font-family="body" as="main" class="main">
 					<CReset />
-					<div class="navbar">
-						<NuxtLink to="/">Home page</NuxtLink>
+					<div class="navbar" fonts="heading" h="100px">
+						<NuxtLink to="/">Homepage</NuxtLink>
 						<NuxtLink to="/product">Product</NuxtLink>
 						<NuxtLink to="/users">Users</NuxtLink>
 						<NuxtLink to="/about">About</NuxtLink>
@@ -23,8 +23,6 @@ import {
 	CReset,
 	CBox
 } from '@chakra-ui/vue'
-
-import custom-theme from "../"
 
 export default {
 	head: {
@@ -53,5 +51,10 @@ export default {
 <style>
 * {
 	font-family: "SF Pro Display", sans-serif;
+}
+.main {
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+	color: #f2e5ff;
 }
 </style>
