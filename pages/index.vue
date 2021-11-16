@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="80px">
+		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="60px">
 			<CFlex>
 			<CBox max-w="32rem">
 				<CText mb="4">

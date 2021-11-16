@@ -6,7 +6,6 @@
 					<CReset />
 					<Navbar />
 					<Nuxt />
-					
 				</CBox>
 			</CColorModeProvider>
 		</CThemeProvider>

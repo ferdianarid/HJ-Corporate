@@ -1,14 +1,37 @@
 <template lang="">
-       <div class="navbar" fonts="heading" h="100px" bg="red">
-              <NuxtLink to="/">Homepage</NuxtLink>
-              <NuxtLink to="/about">About</NuxtLink>
-       </div>
+       <CBox w="100%" fonts="heading" h="70px" px="100px">
+              <CFlex justify-content="start" align-items="start">
+                     <CText font-size="20px" font-weight="800" mt="18px">
+                            <CFlex w="10rem">
+                                   <span style="color: #50b9ff;">HJ Corporate&trade;</span>
+                            </CFlex>
+                     </CText>
+                     <NuxtLink to="/">
+                            <CText font-size="xs" mx="10px" font-weight="bold" mt="24px" textTransform="uppercase">Homepage</CText>
+                     </NuxtLink>
+                     <NuxtLink to="/components">
+                            <CText font-size="xs" mx="10px" font-weight="bold" textTransform="uppercase" mt="24px">Components</CText>
+                     </NuxtLink>
+                     <NuxtLink to="/about">
+                            <CText font-size="xs" mx="10px" font-weight="bold" textTransform="uppercase" mt="24px">About</CText>
+                     </NuxtLink>
+              </CFlex>
+       </CBox>
 </template>
 <script>
+import {
+       CBox,
+       CImage,
+       CFlex
+} from '@chakra-ui/vue'
 export default {
-       name: "Navbar"
+       name: "Navbar",
+       components: {
+              CBox,
+              CImage,
+              CFlex
+       }
 }
 </script>
-<style lang="">
-       
+<style>
 </style>
