@@ -4,13 +4,9 @@
 			<CColorModeProvider>
 				<CBox maxW="1440px" font-family="body" as="main" class="main">
 					<CReset />
-					<div class="navbar" fonts="heading" h="100px">
-						<NuxtLink to="/">Homepage</NuxtLink>
-						<NuxtLink to="/product">Product</NuxtLink>
-						<NuxtLink to="/users">Users</NuxtLink>
-						<NuxtLink to="/about">About</NuxtLink>
-					</div>
+					<Navbar />
 					<Nuxt />
+					
 				</CBox>
 			</CColorModeProvider>
 		</CThemeProvider>
@@ -23,7 +19,7 @@ import {
 	CReset,
 	CBox
 } from '@chakra-ui/vue'
-
+import Navbar from "../components/Navbar.vue"
 export default {
 	head: {
 		title: 'HJ Corporate - Make a new World',
@@ -40,6 +36,7 @@ export default {
 	},
 	name: 'App',
 	components: {
+		Navbar,
 		CThemeProvider,
 		CColorModeProvider,
 		CReset,
@@ -51,6 +48,7 @@ export default {
 <style>
 * {
 	font-family: "SF Pro Display", sans-serif;
+	scroll-behavior: smooth;
 }
 .main {
 	background-color: #000000;

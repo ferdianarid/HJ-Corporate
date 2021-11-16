@@ -1,15 +1,19 @@
 <template>
 	<div class="container">
 		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="80px">
-			<CBox max-w="36rem">
+			<CFlex>
+			<CBox max-w="32rem">
 				<CText mb="4">
-					<b>HJ Corporate</b>
+					<CFlex justify-content="start" align="center">
+						<b mr="20px">HJ Corporate</b>&nbsp;&nbsp;
+						<hr width="100px" color="white">
+					</CFlex>
 				</CText>
 				<CHeading mb="4" font-size="5xl">
-					Membantu mengubah produk anda menjadi luar biasa.
+					Membantu mengubah <span class="highlightHeading"> produk anda </span> menjadi luar biasa.
 				</CHeading>
-				<CText font-size="xl">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laboriosam aliquid temporibus! Eos, ex vitae nihil provident ducimus.
+				<CText font-size="md">
+					Perusahaan di bidang Teknologi Informasi dengan menawarkan spesialisasi pada pembuatan Sistem Informasi, Mobile Aplication and Website Design.
 				</CText>
 				<CFlex>
 					<CButton size="lg" variant-color="green" mt="24px">
@@ -20,6 +24,10 @@
 					</CButton>
 				</CFlex>
 			</CBox>
+			<CBox max-w="36rem" mt="48px" ml="2rem">
+				<img src="../static/hero.png" alt="isometrichero">
+			</CBox>
+			</CFlex>
 		</CBox>
 	</div>
 </template>
@@ -66,3 +74,9 @@ export default {
 	methods: {}
 }
 </script>
+
+<style>
+span.highlightHeading {
+	color: #50b9ff;
+}
+</style>

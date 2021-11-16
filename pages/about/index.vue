@@ -1,16 +1,16 @@
 <template>
-       <div>
-              <CBox w="100vw">
-                     <CText
-                            bgClip="text"
-                            fontSize="6xl"
-                            fontWeight="extrabold"
-                            text-align="center"
-                     >
-                            About Page
-                     </CText>
-              </CBox>
-       </div>
+       <div class="container">
+		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="140px">
+                     <CBox max-w="32rem" mx="auto" align="center">
+                            <CHeading font-size="5xl" mb="4">
+                                          HJ Corporate
+                            </CHeading>
+                            <CText font-size="md">
+                                   Perusahaan di bidang Teknologi Informasi dengan menawarkan spesialisasi pada pembuatan Sistem Informasi, Mobile Aplication and Website Design.
+                            </CText>
+                     </CBox>
+		</CBox>
+	</div>
 </template>
 
 <script>
