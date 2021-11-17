@@ -1,13 +1,17 @@
 <template>
        <div class="container">
-		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="140px">
-                     <CBox max-w="32rem" mx="auto" align="center">
+		<CBox w="auto" justify-content="center" mx="100px" pt="32px">
+                     <CBox max-w="32rem" mx="auto" align="center" pb="32px">
                             <CHeading font-size="5xl" mb="4">
                                           Components
                             </CHeading>
                             <CText font-size="md">
                                    Components yang akan digunakan untuk membuat pages yang baik dan interaktif.
                             </CText>
+				<CFlex justify="start" mt="32px">
+					<Card />
+					<Card />
+				</CFlex>
                      </CBox>
 		</CBox>
 	</div>
@@ -15,6 +19,7 @@
 
 <script>
 import { CText, CBox } from  "@chakra-ui/vue"
+import Card from "../../components/Card.vue"
 export default {
        head() {
 		return {
@@ -39,7 +44,8 @@ export default {
        name: "Components",
        components: {
               CText,
-              CBox
+              CBox,
+		Card
        }
 }
 </script>

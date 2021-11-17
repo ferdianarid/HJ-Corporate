@@ -29,6 +29,20 @@
 			</CBox>
 			</CFlex>
 		</CBox>
+		<CBox w="auto" justify-content="center" mx="100px" mt="36px" pt="16px">
+			<CText mb="4">
+				<CFlex justify-content="start" align="center">
+					<b mr="20px">Discovery</b>&nbsp;&nbsp;
+					<hr width="100px" color="white">
+				</CFlex>
+			</CText>
+			<CHeading mb="4" font-size="5xl">
+				Keuntungan menjadi partner kerja <span class="highlightHeading"> HJ Corporate </span>
+			</CHeading>
+			<CText font-size="md">
+				Mempunyai pelayanan dan sistem kerja yang baik dan bisa membuat produk yang berkualitas.
+			</CText>
+		</CBox>
 	</div>
 </template>
 
