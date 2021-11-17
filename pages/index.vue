@@ -1,47 +1,67 @@
 <template>
 	<div class="container">
+		<!-- Main Canvas -->
 		<CBox w="auto" h="100vh" justify-content="center" mx="100px" pt="60px">
 			<CFlex>
-			<CBox max-w="32rem">
-				<CText mb="4">
-					<CFlex justify-content="start" align="center">
-						<b mr="20px">HJ Corporate</b>&nbsp;&nbsp;
-						<hr width="100px" color="white">
+				<CBox maxW="32rem">
+					<!-- Pre Heading -->
+					<CText mb="4">
+						<CFlex justify-content="start" align="center">
+							<b mr="20px">HJ Corporate</b>&nbsp;&nbsp;
+							<hr width="100px" color="white">
+						</CFlex>
+					</CText>
+					<!-- Heading -->
+					<CHeading mb="4" font-size="5xl">
+						Membantu mengubah <span class="highlightHeading"> produk anda </span> menjadi luar biasa.
+					</CHeading>
+					<!-- Sub Heading -->
+					<CText fontSize="md">
+						Perusahaan di bidang Teknologi Informasi dengan menawarkan spesialisasi pada pembuatan Sistem Informasi, Mobile Aplication and Website Design.
+					</CText>
+					<!-- Call to Action -->
+					<CFlex>
+						<CButton size="lg" variant-color="green" mt="24px">
+							Hubungi Kami
+						</CButton>
+						<CButton size="lg" variant="outline" variant-color="green" mt="24px" ml="12px">
+							Pelajari Dulu
+						</CButton>
 					</CFlex>
-				</CText>
-				<CHeading mb="4" font-size="5xl">
-					Membantu mengubah <span class="highlightHeading"> produk anda </span> menjadi luar biasa.
-				</CHeading>
-				<CText font-size="md">
-					Perusahaan di bidang Teknologi Informasi dengan menawarkan spesialisasi pada pembuatan Sistem Informasi, Mobile Aplication and Website Design.
-				</CText>
-				<CFlex>
-					<CButton size="lg" variant-color="green" mt="24px">
-						Hubungi Kami
-					</CButton>
-					<CButton size="lg" variant="outline" variant-color="green" mt="24px" ml="12px">
-						Pelajari Dulu
-					</CButton>
-				</CFlex>
-			</CBox>
-			<CBox max-w="36rem" mt="48px" ml="2rem">
-				<img class="animateImage" src="../static/hero.png" alt="isometrichero">
-			</CBox>
+				</CBox>
+				<!-- Hero Image -->
+				<CBox max-w="36rem" mt="48px" ml="2rem">
+					<img class="animateImage" src="../static/hero.png" alt="isometrichero">
+				</CBox>
 			</CFlex>
 		</CBox>
+		<!-- Section DIscovery -->
 		<CBox w="auto" justify-content="center" mx="100px" mt="36px" pt="16px">
 			<CText mb="4">
 				<CFlex justify-content="start" align="center">
-					<b mr="20px">Discovery</b>&nbsp;&nbsp;
+					<b mr="20px">Benefits</b>&nbsp;&nbsp;
 					<hr width="100px" color="white">
 				</CFlex>
 			</CText>
+			<!-- Heading Benefits -->
 			<CHeading mb="4" font-size="5xl">
-				Keuntungan menjadi partner kerja <span class="highlightHeading"> HJ Corporate </span>
+				Keuntungan menjadi partner kerja <span class="highlightHeading"> HJ Corporate. </span>
 			</CHeading>
-			<CText font-size="md">
+			<!-- Sub Heading Benefits -->
+			<CText fontSize="md">
 				Mempunyai pelayanan dan sistem kerja yang baik dan bisa membuat produk yang berkualitas.
 			</CText>
+		</CBox>
+		<CBox w="auto">
+			<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
+				<!-- Items Benefits -->
+				<CText fontSize="24px" fontWeight="600">
+					Komunikasi yang jelas dan baik.
+				</CText>
+				<CText fontSize="md">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero corrupti vel magni a, delectus saepe nobis!
+				</CText>
+			</CBox>
 		</CBox>
 	</div>
 </template>

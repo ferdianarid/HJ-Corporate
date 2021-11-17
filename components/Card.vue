@@ -57,7 +57,7 @@ export default {
                             beds: 3,
                             baths: 2,
                             title: "Modern home in Los Angeles US",
-                            formattedPrice: "$1,900.00",
+                            formattedPrice: "$2,500.00",
                             reviewCount: 34,
                             rating: 4,
                      }
