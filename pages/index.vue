@@ -25,7 +25,7 @@
 				</CFlex>
 			</CBox>
 			<CBox max-w="36rem" mt="48px" ml="2rem">
-				<img src="../static/hero.png" alt="isometrichero">
+				<img class="animateImage" src="../static/hero.png" alt="isometrichero">
 			</CBox>
 			</CFlex>
 		</CBox>
@@ -78,5 +78,18 @@ export default {
 <style>
 span.highlightHeading {
 	color: #50b9ff;
+}
+.animateImage {
+	animation: animate 3s ease-out infinite;
+	transition: none;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0px);
+	} 50% {
+		transform: translateY(-20px);
+	} 100% {
+		transform: translateY(0px)
+	}
 }
 </style>

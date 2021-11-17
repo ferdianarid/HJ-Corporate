@@ -17,34 +17,6 @@
                      <NuxtLink to="/about">
                             <CText font-size="xs" mx="16px" font-weight="bold" textTransform="uppercase" mt="24px">About</CText>
                      </NuxtLink>
-                     <CMenu>
-                     <CMenuButton>
-                            Your Cats
-                     </CMenuButton>
-                     <CMenuList>
-                     <CMenuItem h="48px">
-                            <CImage
-                                   size="2rem"
-                                   rounded="full"
-                                   src="https://placekitten.com/100/100"
-                                   alt="Fluffybuns the destroyer"
-                                   mr="12px"
-                            />
-                     <span>Fluffybuns the Destroyer</span>
-                     </CMenuItem>
-                     <CMenuItem h="40px">
-                     <CImage
-                     size="2rem"
-                     rounded="full"
-                     src="https://placekitten.com/120/120"
-                     alt="Simon the pensive"
-                     mr="12px"
-                     />
-                     <span>Simon the pensive</span>
-                     </CMenuItem>
-                     </CMenuList>
-                     </CMenu>
-
               </CFlex>
        </CBox>
 </template>
