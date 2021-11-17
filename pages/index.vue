@@ -35,7 +35,7 @@
 				</CBox>
 			</CFlex>
 		</CBox>
-		<!-- Section DIscovery -->
+		<!-- Section Benefits -->
 		<CBox w="auto" justify-content="center" mx="100px" mt="36px" pt="16px">
 			<CText mb="4">
 				<CFlex justify-content="start" align="center">
@@ -45,23 +45,52 @@
 			</CText>
 			<!-- Heading Benefits -->
 			<CHeading mb="4" font-size="5xl">
-				Keuntungan menjadi partner kerja <span class="highlightHeading"> HJ Corporate. </span>
+				Keuntungan menjadi partner <br> kerja <span class="highlightHeading"> HJ Corporate. </span>
 			</CHeading>
 			<!-- Sub Heading Benefits -->
 			<CText fontSize="md">
 				Mempunyai pelayanan dan sistem kerja yang baik dan bisa membuat produk yang berkualitas.
 			</CText>
 		</CBox>
-		<CBox w="auto">
-			<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
+		<!-- Cards Benefits-->
+		<CBox w="auto" mx="100px" mt="36px">
+			<CFlex justify-content="space-between">
 				<!-- Items Benefits -->
-				<CText fontSize="24px" fontWeight="600">
-					Komunikasi yang jelas dan baik.
-				</CText>
-				<CText fontSize="md">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero corrupti vel magni a, delectus saepe nobis!
-				</CText>
-			</CBox>
+				<CBox w="30%"  >
+					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
+						<CText fontSize="24px" fontWeight="600">
+							Komunikasi yang jelas dan baik.
+						</CText>
+						<CText fontSize="md" pt="4">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero corrupti vel magni a, delectus saepe nobis!
+						</CText>
+					</CBox>
+				</CBox>
+				<!-- Items Benefits -->
+				<CBox w="30%"  >
+					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
+						<!-- Items Benefi1ts -->
+						<CText fontSize="24px" fontWeight="600">
+							Proyek sesuai dari permintaan client.
+						</CText>
+						<CText fontSize="md" pt="4">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero corrupti vel magni a, delectus saepe nobis!
+						</CText>
+					</CBox>
+				</CBox>
+				<!-- Items Benefits -->
+				<CBox w="30%"  >
+					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
+						<!-- Items Benefi1ts -->
+						<CText fontSize="24px" fontWeight="600">
+							Ketepatan dalam waktu pengerjaan.
+						</CText>
+						<CText fontSize="md" pt="4">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero corrupti vel magni a, delectus saepe nobis!
+						</CText>
+					</CBox>
+				</CBox>
+			</CFlex>
 		</CBox>
 	</div>
 </template>
