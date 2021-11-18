@@ -1,5 +1,5 @@
 <template lang="">
-       <CBox w="100%" fonts="heading" h="70px" :mx="['20px','35px','50px','100px']">
+       <CBox w="auto" fonts="heading" h="70px" :mx="['20px','35px','50px','100px']">
               <CFlex :direction="['column','column','row','row']" justify-content="start" align-items="start">
                      <CText font-size="20px" font-weight="800" mt="18px">
                             <CFlex w="10rem">

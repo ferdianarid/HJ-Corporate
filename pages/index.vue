@@ -1,8 +1,8 @@
 <template>
 	<div class="container">
 		<!-- Main Canvas -->
-		<CBox w="auto" h="100vh" justify-content="center" :mx="['20px','35px','50px','100px']" pt="60px">
-			<CFlex>
+		<CBox w="auto" h="auto" justify-content="center" :mx="['20px','35px','50px','100px']" pt="60px">
+			<CFlex :direction="['column','column','row','row']">
 				<CBox maxW="32rem">
 					<!-- Pre Heading -->
 					<CText mb="4" :mt="['48px','36px','24px','0px']">
@@ -30,13 +30,13 @@
 					</CFlex>
 				</CBox>
 				<!-- Hero Image -->
-				<CBox max-w="36rem" mt="48px" ml="2rem">
+				<CBox maxW="36rem" :mt="['64px','64px','48px','48px']" ml="2rem">
 					<img class="animateImage" src="../static/hero.png" alt="isometrichero">
 				</CBox>
 			</CFlex>
 		</CBox>
 		<!-- Section Benefits -->
-		<CBox w="auto" justify-content="center" mx="100px" :mt="['124px','84px','64px','32px']" pt="16px">
+		<CBox w="auto" justify-content="center" :mx="['20px','35px','50px','100px']" :mt="['20px','32px','64px','32px']" pt="16px">
 			<CText mb="4">
 				<CFlex justify-content="start" align="center">
 					<b mr="20px">Benefits</b>&nbsp;&nbsp;
@@ -53,10 +53,10 @@
 			</CText>
 		</CBox>
 		<!-- Cards Benefits-->
-		<CBox w="auto" mx="100px" mt="36px" pb="56px">
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
 			<CFlex :direction="['column','column','row','row']" justify-content="space-between">
 				<!-- Items Benefits -->
-				<CBox :width="['100%','50%','50%','32%']">
+				<CBox :width="['100%','50%','50%','32%']" :mt="['8px','32px','16px','16px']">
 					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
 						<CText fontSize="24px" fontWeight="600">
 							Komunikasi yang jelas dan baik.
@@ -67,7 +67,7 @@
 					</CBox>
 				</CBox>
 				<!-- Items Benefits -->
-				<CBox w="32%"  >
+				<CBox :width="['100%','50%','50%','32%']" :mt="['32px','32px','16px','16px']">
 					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
 						<!-- Items Benefi1ts -->
 						<CText fontSize="24px" fontWeight="600">
@@ -79,7 +79,7 @@
 					</CBox>
 				</CBox>
 				<!-- Items Benefits -->
-				<CBox w="32%"  >
+				<CBox :width="['100%','50%','50%','32%']" :mt="['32px','32px','16px','16px']">
 					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
 						<!-- Items Benefi1ts -->
 						<CText fontSize="24px" fontWeight="600">
@@ -93,21 +93,21 @@
 			</CFlex>
 		</CBox>
 		<!-- Partner Section --> 
-		<CBox w="auto" mx="100px" mt="36px" pb="56px">
-			<CFlex justify-content="start" align-items="center">
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" :mt="['64px','48px','24px','12px']" pb="56px">
+			<CFlex :direction="['column','column','row','row']" :justify-content="['center','center','start','start']" align-items="center">
 				<CHeading as="h1">
 					Partner Kami
 				</CHeading>
-				<CBox maxW="18rem" ml="124px">
+				<CBox w="auto" maxW="18rem" :mt="['64px','48px','12px','8px']" :ml="['16px','32px','64px','128px']">
 					<img src="../static/spotify.png" alt="spotify">
 				</CBox>
-				<CBox maxW="18rem" ml="36px">
+				<CBox w="auto" maxW="18rem" :mt="['64px','48px','12px','8px']" :ml="['16px','32px','64px','128px']">
 					<img src="../static/youtube.png" alt="youtube">
 				</CBox>
 			</CFlex>
 		</CBox>
 		<!-- Services Provide -->
-		<CBox w="auto" mx="100px" mt="36px" pb="56px">
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
 			<CHeading as="h1">
 				Bidang bisnis yang kami tawarkan.
 			</CHeading>

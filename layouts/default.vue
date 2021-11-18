@@ -2,7 +2,7 @@
 	<div class="container">
 		<CThemeProvider>
 			<CColorModeProvider>
-				<CBox maxW="1440px" font-family="body" as="main" class="main">
+				<CBox m="auto" maxW="1440px" font-family="body" as="main" class="main">
 					<CReset />
 					<Navbar />
 					<Nuxt />
