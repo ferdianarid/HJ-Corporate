@@ -2,6 +2,7 @@
 import customTheme from "./custom-theme.js"
 
 export default {
+    target: 'static',
     // Extends Custom Theme to Chakra UI
     chakra: {
         extendTheme: customTheme
