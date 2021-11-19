@@ -46,7 +46,7 @@ export default {
 
 <style>
 * {
-	font-family: "SF Pro Display", sans-serif;
+	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 }
 .main {

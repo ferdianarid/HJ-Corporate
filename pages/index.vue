@@ -12,7 +12,7 @@
 						</CFlex>
 					</CText>
 					<!-- Heading -->
-					<CHeading mb="4" font-size="5xl">
+					<CHeading mb="4" font-size="48px">
 						Membantu mengubah <span class="highlightHeading"> produk anda </span> menjadi luar biasa.
 					</CHeading>
 					<!-- Sub Heading -->
@@ -35,6 +35,30 @@
 				</CBox>
 			</CFlex>
 		</CBox>
+		<!-- Section Tentang Kami -->
+		<CBox w="auto" justify-content="center" :mx="['20px','35px','50px','100px']" :mt="['20px','32px','64px','32px']" pt="16px">
+			<CText mb="4">
+				<CFlex justify-content="start" align="center">
+					<b mr="20px">Tentang Kami</b>&nbsp;&nbsp;
+					<hr width="100px" color="white">
+				</CFlex>
+			</CText>
+			<!-- Heading Tentang -->
+			<CHeading mb="4" font-size="48px">
+				Kami selalu mengedepankan <span class="highlightHeading"> kepuasan </span> para partner kami demi menghasilkan sebuah produk yang diinginkan.
+			</CHeading>
+			<!-- Sub Heading Tentang -->
+			<CText fontSize="md">
+				Mempunyai pelayanan dan sistem kerja yang baik dan bisa membuat produk yang berkualitas.
+			</CText>
+			<CBox class="banner" width="auto" height="300px" mt="24px" pos="relative">
+				<CBox bg="white" width="auto" borderWidth="1px" p="6" pos="absolute" top="0" right="0">
+					<CHeading>
+						200+ Users
+					</CHeading>
+				</CBox>
+			</CBox>
+		</CBox>
 		<!-- Section Benefits -->
 		<CBox w="auto" justify-content="center" :mx="['20px','35px','50px','100px']" :mt="['20px','32px','64px','32px']" pt="16px">
 			<CText mb="4">
@@ -44,7 +68,7 @@
 				</CFlex>
 			</CText>
 			<!-- Heading Benefits -->
-			<CHeading mb="4" font-size="5xl">
+			<CHeading mb="4"  font-size="48px">
 				Keuntungan menjadi partner <br> kerja <span class="highlightHeading"> HJ Corporate. </span>
 			</CHeading>
 			<!-- Sub Heading Benefits -->
@@ -81,7 +105,7 @@
 				<!-- Items Benefits -->
 				<CBox :width="['100%','50%','50%','32%']" :mt="['32px','32px','16px','16px']">
 					<CBox borderWidth="1px" rounded="lg" overflow="hidden" p="6">
-						<!-- Items Benefi1ts -->
+						<!-- Items Benefits -->
 						<CText fontSize="24px" fontWeight="600">
 							Ketepatan dalam waktu pengerjaan.
 						</CText>
@@ -108,12 +132,68 @@
 		</CBox>
 		<!-- Services Provide -->
 		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
-			<CHeading as="h1">
-				Bidang bisnis yang kami tawarkan.
+			<CHeading mb="4"   font-size="48px">
+				Bidang <span class="highlightHeading"> bisnis </span> yang kami tawarkan.
 			</CHeading>
-			<CText fontSize="md" pt="4">
+			<CText fontSize="md">
 				Kami menawarkan berbagai layanan seperti
 			</CText>
+			<CFlex :direction="['column','row','row','row']" justify-content="space-between">
+				<CBox :width="['100%','75%','49%','49%']" borderWidth="1px" rounded="lg" overflow="hidden" p="6" mt="24px">
+					<img width="128px" src="../static/spotify.png" alt="spotify">
+					<CText fontSize="32px" fontWeight="bold" pt="32px">
+						HJ Technology
+					</CText>
+					<CText>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum. dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum.
+					</CText>
+				</CBox>
+				<CBox :width="['100%','75%','49%','49%']" borderWidth="1px" rounded="lg" overflow="hidden" p="6" mt="24px">
+					<img width="128px" src="../static/spotify.png" alt="spotify">
+					<CText fontSize="32px" fontWeight="bold" pt="32px">
+						HJ Design
+					</CText>
+					<CText>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum. dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum.
+					</CText>
+				</CBox>
+			</CFlex>
+			<CFlex :direction="['column','row','row','row']"  justify-content="space-between">
+				<CBox :width="['100%','75%','49%','49%']" borderWidth="1px" rounded="lg" overflow="hidden" p="6" mt="24px">
+					<img width="128px" src="../static/spotify.png" alt="spotify">
+					<CText fontSize="32px" fontWeight="bold" pt="32px">
+						HJ Consultant
+					</CText>
+					<CText>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum. dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum.
+					</CText>
+				</CBox>
+				<CBox :width="['100%','75%','49%','49%']" borderWidth="1px" rounded="lg" overflow="hidden" p="6" mt="24px">
+					<img width="128px" src="../static/spotify.png" alt="spotify">
+					<CText fontSize="32px" fontWeight="bold" pt="32px">
+						HJ Farm
+					</CText>
+					<CText>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum. dolor sit amet consectetur adipisicing elit. Expedita deleniti quisquam deserunt omnis obcaecati quasi enim sunt earum.
+					</CText>
+				</CBox>
+			</CFlex>
+		</CBox>
+		<!-- Section Card Portfolio -->
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="48px" pb="56px">
+			<CFlex justify-content="start" align="center">
+				<b mr="20px">Portfolio</b>&nbsp;&nbsp;
+				<hr width="100px" color="white">
+			</CFlex>
+			<!-- Heading  Portfolio -->
+			<CHeading mb="4"  font-size="48px">
+				<span class="highlightHeading"> Proyek </span> yang pernah kami kerjakan.
+			</CHeading>
+			<!-- Sub Heading  Portfolio -->
+			<CText fontSize="md">
+				Mempunyai pelayanan dan sistem kerja yang baik dan bisa membuat produk yang berkualitas.
+			</CText>
+			<CardPortfolio />
 		</CBox>
 	</div>
 </template>
@@ -126,6 +206,8 @@ import {
 	CText,
 	CButton
 } from '@chakra-ui/vue'
+
+import CardPortfolio from '~/components/CardPortfolio.vue'
 
 export default {
 	head() {
@@ -149,7 +231,8 @@ export default {
 		CFlex,
 		CHeading,
 		CText,
-		CButton
+		CButton,
+		CardPortfolio
 	},
 	data () {
 		return {
@@ -178,4 +261,10 @@ span.highlightHeading {
 		transform: translateY(0px)
 	}
 }
+
+.banner {
+	background-image: url("https://images.unsplash.com/photo-1488998527040-85054a85150e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+	background-size: cover;
+}
+
 </style>

@@ -1,6 +1,6 @@
 export default {
     fonts: {
-        heading: '"SF Pro Display", sans-serif',
+        heading: '"Poppins", sans-serif',
         body: '"Poppins", sans-serif'
     },
     colors: {
