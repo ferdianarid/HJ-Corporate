@@ -69,5 +69,5 @@ export default {
         ssr: false
     }],
     css: ["aos/dist/aos.css"],
-    buildDir: 'nuxt-dist'
+    buildDir: 'dist'
 }

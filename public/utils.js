@@ -204,6 +204,13 @@ export async function setContext (app, context) {
     }
     // Only set once
 
+    if (context.req) {
+      app.context.req = context.req
+    }
+    if (context.res) {
+      app.context.res = context.res
+    }
+
     if (context.ssrContext) {
       app.context.ssrContext = context.ssrContext
     }

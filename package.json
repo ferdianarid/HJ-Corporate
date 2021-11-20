@@ -9,7 +9,8 @@
         "generate": "nuxt generate",
         "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
         "lint": "npm run lint:js",
-        "test": "jest"
+        "test": "jest",
+        "buildsrc": "nuxt build -o public"
     },
     "dependencies": {
         "@chakra-ui/nuxt": "^0.3.3",
