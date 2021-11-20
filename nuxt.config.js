@@ -5,7 +5,7 @@ export default {
     generate: {
         dir: 'public'
     },
-    target: 'static',
+    target: 'public',
     // Extends Custom Theme to Chakra UI
     chakra: {
         extendTheme: customTheme
