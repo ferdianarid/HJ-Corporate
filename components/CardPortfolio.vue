@@ -8,7 +8,15 @@
               <!-- Card Description -->
               <CBox p="6" :pr="['0px','0px','0px','12px']" :width="['100%','100%','50%','50%']">
                      <CHeading>Design Landing Page Kantor Pemerintahan Gubernur Jateng.</CHeading>
-                     <CText font-size="16px" pt="24px">Redesign Landing Pages Kantor Pemerintahan Gubernur Jateng. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ab. Voluptates sed praesentium aliquam similique earum harum modi fugit fugiat.</CText>
+                     <CText font-size="16px" pt="24px">Redesign Landing Pages Kantor Pemerintahan Gubernur Jateng. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ab.</CText>
+                     <CFlex mt="4">
+                            <CBox bg="blue.300" pt="2" pb="2" pl="4" pr="4" mr="6px" border-radius="25px">
+                                   <CText font-weigth="bold" fontSize=".75rem">Website Design</CText>
+                            </CBox>
+                            <CBox bg="blue.300" pt="2" pb="2" pl="4" pr="4" mr="6px" border-radius="25px">
+                                   <CText font-weigth="bold" fontSize=".75rem">Development</CText>
+                            </CBox>
+                     </CFlex>
               </CBox>
        </CFlex>
 </template>

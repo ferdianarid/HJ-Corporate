@@ -195,6 +195,37 @@
 			</CText>
 			<CardPortfolio />
 		</CBox>
+		<!-- Kolaborasi -->
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
+			<CFlex justify-content="start" align="center">
+				<b mr="20px">Berkolaborasi</b>&nbsp;&nbsp;
+				<hr width="100px" color="white">
+			</CFlex>
+			<CHeading mb="4"   font-size="48px">
+				Siap <span class="highlightHeading"> berkolaborasi </span> dengan kami ?
+			</CHeading>
+			<CText fontSize="md">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum eos debitis explicabo libero.
+			</CText>
+		</CBox>
+		<!-- Question -->
+		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
+			<CFlex justify-content="space-between" :direction="['column', 'column','row','row']">
+				<CBox :w="['100%','100%','50%','50%']">
+					<CHeading mb="4"   font-size="48px">
+						Belum memiliki <span class="highlightHeading"> ide </span> untuk proyek anda ?
+					</CHeading>
+				</CBox>
+				<CBox :w="['100%','100%','50%','50%']">
+					<CText fontSize="md" :pl="['0px','0px','6px','6px']">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum eos debitis explicabo libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis alias illo, praesentium officia doloribus hic iste enim aliquam ut vero sit.
+					</CText>
+					<CButton variant="outline" ml="1" mt="6">
+						Agendakan Meeting Online
+					</CButton>
+				</CBox>
+			</CFlex>
+		</CBox>
 	</div>
 </template>
 
