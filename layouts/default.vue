@@ -31,7 +31,13 @@ export default {
 					content: 'hjcorporate is a company'
 				}
 			],
-		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+		link: [
+			{ 
+				rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' 
+			},{
+				rel: "stylesheets",
+				href: "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+			}]
 	},
 	name: 'App',
 	components: {

@@ -12,7 +12,7 @@
 						</CFlex>
 					</CText>
 					<!-- Heading -->
-					<CHeading mb="4" font-size="48px">
+					<CHeading data-aos="fade-up" data-aos-duration="1000" mb="4" font-size="48px">
 						Membantu mengubah <span class="highlightHeading"> produk anda </span> menjadi luar biasa.
 					</CHeading>
 					<!-- Sub Heading -->
@@ -208,10 +208,51 @@
 			<CText fontSize="md">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum eos debitis explicabo libero.
 			</CText>
+			<CText mt="1.75rem" font-weight="bold" font-size="1.5rem">
+				Bisnis yang diinginkan
+			</CText>
+			<CBox mt=".5rem" font-weight="bold" font-size="24px" font-color="black">
+				<CButton variant-color="blue.500" variant="outline" mt="3">
+					HJ Technology
+				</CButton>
+				<CButton variant-color="blue.500" variant="outline" mt="3" ml="3">
+					HJ Design
+				</CButton>
+				<CButton variant-color="blue.500" variant="outline" mt="3" :ml="['0','0','3','3']">
+					HJ Consultant
+				</CButton>
+				<CButton variant-color="blue.500" variant="outline" mt="3" ml="3">
+					HJ Farm
+				</CButton>
+			</CBox>
+			<CBox mt="2rem" :w="['100%','100%','60%','60%']">
+				<CStack spacing="4">
+				<!-- Group input element -->
+				<CInputGroup>
+					<!-- Input Element -->
+					<CInputLeftElement>
+						<CIcon name="phone" color="gray.300" />
+					</CInputLeftElement>
+					<CInput type="phone" placeholder="Phone number" />
+				</CInputGroup>
+				<!-- Group input Element -->
+				<CInputGroup>
+					<CInputLeftElement color="gray.300" fontSize="1.2em">$</CInputLeftElement>
+					<CInput placeholder="Enter amount" />
+					<!-- Input Element -->
+					<CInputRightElement>
+						<CIcon name="check" color="green.500" />
+					</CInputRightElement>
+				</CInputGroup>
+				</CStack>
+				<!-- Button Action Submit -->
+				<CButton variant="solid" variant-color="blue" mt="3">Submit</CButton>
+			</CBox>
 		</CBox>
 		<!-- Question -->
 		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
-			<CFlex justify-content="space-between" :direction="['column', 'column','row','row']">
+			<hr width="auto">
+			<CFlex justify-content="space-between" :direction="['column', 'column','row','row']" mt="16">
 				<CBox :w="['100%','100%','50%','50%']">
 					<CHeading mb="4"   font-size="48px">
 						Belum memiliki <span class="highlightHeading"> ide </span> untuk proyek anda ?
@@ -238,7 +279,9 @@ import {
 	CFlex,
 	CHeading,
 	CText,
-	CButton
+	CButton,
+	CInput,
+	CStack
 } from '@chakra-ui/vue'
 
 import CardPortfolio from '~/components/CardPortfolio.vue'
@@ -266,6 +309,8 @@ export default {
 		CHeading,
 		CText,
 		CButton,
+		CInput,
+		CStack,
 		CardPortfolio,
 		Footer
 	},

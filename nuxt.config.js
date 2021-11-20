@@ -59,6 +59,13 @@ export default {
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {},
+    build: {
+        vendor: ["aos"]
+    },
+    plugins: [{
+        src: "~plugins/aos",
+        ssr: false
+    }],
+    css: ["aos/dist/aos.css"],
     buildDir: 'nuxt-dist'
 }

@@ -15,11 +15,18 @@
                      <CBox :mt="['2rem','2rem','0','0']" :w="['100%','100%','40%','40%']"></CBox>
                      <!-- Footer Right Section -->
                      <CBox :w="['100%','100%','30%','30%']">
-                            <CFlex>
-                                   <CText font-size="md" mr="3">Facebook</CText>
-                                   <CText font-size="md" mr="3">Instagram</CText>
-                                   <CText font-size="md" mr="3">LinkedIn</CText>
-                                   <CText font-size="md">Pinterest</CText>
+                            <CFlex direction="column">
+                                   <!-- Social Media -->
+                                   <CFlex>
+                                          <CText font-size="md" mr="3">Facebook</CText>
+                                          <CText font-size="md" mr="3">Instagram</CText>
+                                          <CText font-size="md" mr="3">LinkedIn</CText>
+                                          <CText font-size="md">Pinterest</CText>
+                                   </CFlex>
+                                   <!-- HJ Corporate -->
+                                   <CFlex :justify-content="['flex-start','flex-start','flex-end','flex-end']">
+                                          <CText font-size="md" font-weight="bold" mt="1.5rem">Copyright 2021. HJ Corporate.</CText>
+                                   </CFlex>
                             </CFlex>
                      </CBox>
               </CFlex>
