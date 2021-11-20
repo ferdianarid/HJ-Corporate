@@ -3,24 +3,28 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\Ferdian\\\\OneDrive\\\\Documents\\\\Github\\\\HJ-Corporate\\\\pages\\\\about\\\\index.vue",
-    "chunkName": "pages/about/index"
+    "chunkName": "pages/about/index",
+    "_name": "_b8c8818c"
   },
   {
     "name": "components",
     "path": "/components",
     "component": "C:\\\\Users\\\\Ferdian\\\\OneDrive\\\\Documents\\\\Github\\\\HJ-Corporate\\\\pages\\\\components\\\\index.vue",
-    "chunkName": "pages/components/index"
+    "chunkName": "pages/components/index",
+    "_name": "_fcbf2b92"
   },
   {
     "name": "xc",
     "path": "/xc",
     "component": "C:\\\\Users\\\\Ferdian\\\\OneDrive\\\\Documents\\\\Github\\\\HJ-Corporate\\\\pages\\\\xc.vue",
-    "chunkName": "pages/xc"
+    "chunkName": "pages/xc",
+    "_name": "_3a54e240"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Ferdian\\\\OneDrive\\\\Documents\\\\Github\\\\HJ-Corporate\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_235ee1e6"
   }
 ]
