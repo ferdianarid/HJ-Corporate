@@ -53,9 +53,9 @@
 			</CText>
 			<CBox class="banner" width="auto" height="300px" mt="24px" pos="relative">
 				<CBox bg="white" width="auto" borderWidth="1px" p="6" pos="absolute" top="0" right="0">
-					<CHeading>
+					<!-- <CHeading>
 						200+ Users
-					</CHeading>
+					</CHeading> -->
 				</CBox>
 			</CBox>
 		</CBox>
@@ -197,7 +197,8 @@
 		</CBox>
 		<!-- Kolaborasi -->
 		<CBox w="auto" :mx="['20px','35px','50px','100px']" mt="36px" pb="56px">
-			<CFlex justify-content="start" align="center">
+			<hr width="auto">
+			<CFlex justify-content="start" align="center" mt="16">
 				<b mr="20px">Berkolaborasi</b>&nbsp;&nbsp;
 				<hr width="100px" color="white">
 			</CFlex>
@@ -220,12 +221,14 @@
 					<CText fontSize="md" :pl="['0px','0px','6px','6px']">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum eos debitis explicabo libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis alias illo, praesentium officia doloribus hic iste enim aliquam ut vero sit.
 					</CText>
-					<CButton variant="outline" ml="1" mt="6">
+					<CButton variant="outline" :ml="['0','0','1','1']" mt="6">
 						Agendakan Meeting Online
 					</CButton>
 				</CBox>
 			</CFlex>
 		</CBox>
+		<!-- Footer Component -->
+		<Footer />
 	</div>
 </template>
 
@@ -239,7 +242,7 @@ import {
 } from '@chakra-ui/vue'
 
 import CardPortfolio from '~/components/CardPortfolio.vue'
-
+import Footer from "../components/Footer.vue"
 export default {
 	head() {
 		return {
@@ -263,7 +266,8 @@ export default {
 		CHeading,
 		CText,
 		CButton,
-		CardPortfolio
+		CardPortfolio,
+		Footer
 	},
 	data () {
 		return {
