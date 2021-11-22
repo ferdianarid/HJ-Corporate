@@ -65,5 +65,6 @@ export default {
         src: "~plugins/aos",
         ssr: false
     }],
-    css: ["aos/dist/aos.css"]
+    css: ["aos/dist/aos.css"],
+    buildDir: {}
 }
