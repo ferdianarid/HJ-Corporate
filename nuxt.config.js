@@ -2,10 +2,6 @@
 import customTheme from "./custom-theme.js"
 
 export default {
-    generate: {
-        dir: 'public'
-    },
-    target: "static",
     // Extends Custom Theme to Chakra UI
     chakra: {
         extendTheme: customTheme
@@ -69,6 +65,5 @@ export default {
         src: "~plugins/aos",
         ssr: false
     }],
-    css: ["aos/dist/aos.css"],
-    buildDir: 'dist'
+    css: ["aos/dist/aos.css"]
 }
